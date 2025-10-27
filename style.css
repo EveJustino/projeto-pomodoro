@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chau Philomene One", sans-serif;
+}
+
+header {
+  background-image: url("./img/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1.5rem 2rem;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+.navbar .menu-icon {
+  color: white;
+  font-size: 2rem;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25vw;
+}
+.nav-left .btn {
+  background-color: #b72222;
+  color: #d7cbcb;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+}
+
+.box-banner {
+  height: 83vh;
+  color: #d7cbcb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.box-banner h1 {
+  font-size: 7rem;
+}
+.box-banner p {
+  color: #fd1e1e;
+  font-size: 2.5rem;
+}/*# sourceMappingURL=style.css.map */
