@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Chau Philomene One", sans-serif;
 }
 
@@ -16,22 +17,36 @@ header {
 }
 
 .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 10vh;
 }
+
 .navbar .menu-icon {
   color: white;
   font-size: 2rem;
 }
 
 .nav-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 25vw;
 }
+
 .nav-left .btn {
   background-color: #b72222;
   color: #d7cbcb;
@@ -42,15 +57,75 @@ header {
 .box-banner {
   height: 83vh;
   color: #d7cbcb;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
+
 .box-banner h1 {
   font-size: 7rem;
 }
+
 .box-banner p {
   color: #fd1e1e;
   font-size: 2.5rem;
-}/*# sourceMappingURL=style.css.map */
+}
+
+main {
+  background-color: #272020;
+  height: 300vh;
+}
+
+.intro {
+  font-size: 35px;
+  padding: 30px;
+  background-color: #D7CBCB;
+}
+
+.steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 99vw;
+}
+
+.steps article {
+  width: 411px;
+  height: 562px;
+  padding-top: 40px;
+  padding-left: 30px;
+  margin-top: 25px;
+  background-color: #B72222;
+  margin-left: 20px;
+  position: relative;
+}
+
+.steps article img {
+  width: 350px;
+  display: block;
+}
+
+.steps article p {
+  color: white;
+  font-size: 30px;
+  width: 25vw;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+}
+/*# sourceMappingURL=style.css.map */
